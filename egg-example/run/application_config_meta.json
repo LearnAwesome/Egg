@@ -1,0 +1,246 @@
+{
+  "keys": "/Users/michael.lu/git/github/learn-egg/egg-example/config/config.default.js",
+  "view": {
+    "defaultEngine": "/Users/michael.lu/git/github/learn-egg/egg-example/config/config.default.js",
+    "mapping": {
+      ".tpl": "/Users/michael.lu/git/github/learn-egg/egg-example/config/config.default.js"
+    },
+    "root": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-view/config/config.default.js"
+  },
+  "repos": {
+    "user": "/Users/michael.lu/git/github/learn-egg/egg-example/config/config.default.js",
+    "serverUrl": "/Users/michael.lu/git/github/learn-egg/egg-example/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-multipart/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-static/config/config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-view-nunjucks/config/config.local.js"
+  },
+  "env": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+  "name": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+    "version": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+    "description": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+    "main": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "dev": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+      "test": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "keywords": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+    "author": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+    "license": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+    "strict": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+      "depth": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+    "env": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+    "level": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+    "logging": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+      "port": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "responseTimeout": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/config.default.js"
+  }
+}

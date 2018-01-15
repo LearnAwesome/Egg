@@ -1,0 +1,240 @@
+2018-01-15 22:34:19,774 ERROR 1679 [-/127.0.0.1/-/16ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/lib/application.js:239:15)
+    at Object.get cookies [as cookies] (/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-security/app/extend/context.js:77:32)
+    at Object.ensureCsrfSecret (/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-security/app/extend/context.js:88:14)
+    at csrf (/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/koa-compose/index.js:42:32)
+    at /Users/michael.lu/git/github/learn-egg/egg-example/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/koa-session/index.js:41:13)
+
+pid: 1679
+hostname: MichaelLudeMacBook-Pro.local
+
+2018-01-15 23:32:35,844 ERROR 2727 [-/127.0.0.1/-/5051ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}})
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/urllib/lib/urllib.js:735:15)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ConnectionTimeoutError'
+requestId: 1
+data: undefined
+path: '/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22'
+status: -2
+headers: {}
+res: { status: -2, statusCode: -2, headers: {}, size: 0, aborted: false, rt: 5037, keepAliveSocket: false, data: undefined, requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ], timing: null, remoteAddress: '35.201.97.85', remotePort: '' }
+pid: 2727
+hostname: MichaelLudeMacBook-Pro.local
+
+2018-01-15 23:34:17,606 ERROR 2753 [-/127.0.0.1/-/1040ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 1000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}})
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/urllib/lib/urllib.js:735:15)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ConnectionTimeoutError'
+requestId: 1
+data: undefined
+path: '/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22'
+status: -2
+headers: {}
+res: { status: -2, statusCode: -2, headers: {}, size: 0, aborted: false, rt: 1025, keepAliveSocket: false, data: undefined, requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ], timing: null, remoteAddress: '35.201.97.85', remotePort: '' }
+pid: 2753
+hostname: MichaelLudeMacBook-Pro.local
+
+2018-01-15 23:34:22,712 ERROR 2753 [-/127.0.0.1/-/1008ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 1000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}})
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/urllib/lib/urllib.js:735:15)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ConnectionTimeoutError'
+requestId: 2
+data: undefined
+path: '/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22'
+status: -2
+headers: {}
+res: { status: -2, statusCode: -2, headers: {}, size: 0, aborted: false, rt: 1007, keepAliveSocket: false, data: undefined, requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ], timing: null, remoteAddress: '35.201.97.85', remotePort: '' }
+pid: 2753
+hostname: MichaelLudeMacBook-Pro.local
+
+2018-01-15 23:35:03,463 ERROR 2769 [-/undefined/-/30049ms GET /news] nodejs.RequestError: socket hang up (req "error"), GET https://hacker-news.firebaseio.com/v0/topstories.json -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":1,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}})
+headers: {}
+headers: {}
+    at createHangUpError (_http_client.js:345:15)
+    at TLSSocket.socketCloseListener (_http_client.js:377:23)
+    at emitOne (events.js:120:20)
+    at TLSSocket.emit (events.js:210:7)
+    at _handle.close (net.js:547:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:356:7)
+code: 'ECONNRESET'
+name: 'RequestError'
+data: undefined
+path: '/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22'
+status: -1
+headers: {}
+res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 30035, keepAliveSocket: false, data: undefined, requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ], timing: null, remoteAddress: '35.201.97.85', remotePort: '' }
+headerSent: true
+pid: 2769
+hostname: MichaelLudeMacBook-Pro.local
+
+2018-01-15 23:35:51,531 ERROR 2793 [-/127.0.0.1/-/30039ms GET /news] nodejs.RequestError: socket hang up (req "error"), GET https://hacker-news.firebaseio.com/v0/topstories.json -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":1,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}})
+headers: {}
+headers: {}
+    at createHangUpError (_http_client.js:345:15)
+    at TLSSocket.socketCloseListener (_http_client.js:377:23)
+    at emitOne (events.js:120:20)
+    at TLSSocket.emit (events.js:210:7)
+    at _handle.close (net.js:547:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:356:7)
+code: 'ECONNRESET'
+name: 'RequestError'
+data: undefined
+path: '/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22'
+status: -1
+headers: {}
+res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 30027, keepAliveSocket: false, data: undefined, requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ], timing: null, remoteAddress: '35.201.97.85', remotePort: '' }
+pid: 2793
+hostname: MichaelLudeMacBook-Pro.local
+
+2018-01-15 23:36:04,082 ERROR 2821 [-/127.0.0.1/-/5035ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}})
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/urllib/lib/urllib.js:735:15)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ConnectionTimeoutError'
+requestId: 1
+data: undefined
+path: '/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22'
+status: -2
+headers: {}
+res: { status: -2, statusCode: -2, headers: {}, size: 0, aborted: false, rt: 5023, keepAliveSocket: false, data: undefined, requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ], timing: null, remoteAddress: '35.201.97.85', remotePort: '' }
+pid: 2821
+hostname: MichaelLudeMacBook-Pro.local
+
+2018-01-15 23:37:08,874 ERROR 2837 [-/127.0.0.1/-/30041ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 30000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":1,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}})
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/urllib/lib/urllib.js:735:15)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ConnectionTimeoutError'
+requestId: 1
+data: undefined
+path: '/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22'
+status: -2
+headers: {}
+res: { status: -2, statusCode: -2, headers: {}, size: 0, aborted: false, rt: 30025, keepAliveSocket: false, data: undefined, requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ], timing: null, remoteAddress: '35.201.97.85', remotePort: '' }
+pid: 2837
+hostname: MichaelLudeMacBook-Pro.local
+
+2018-01-15 23:38:01,807 ERROR 2865 [-/127.0.0.1/-/30047ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 30000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}})
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/urllib/lib/urllib.js:735:15)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ConnectionTimeoutError'
+requestId: 1
+data: undefined
+path: '/v0/topstories.json?startAt=%220%22&endAt=%224%22'
+status: -2
+headers: {}
+res: { status: -2, statusCode: -2, headers: {}, size: 0, aborted: false, rt: 30032, keepAliveSocket: false, data: undefined, requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ], timing: null, remoteAddress: '35.201.97.85', remotePort: '' }
+pid: 2865
+hostname: MichaelLudeMacBook-Pro.local
+
+2018-01-15 23:40:50,327 ERROR 2914 [-/127.0.0.1/-/30040ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 30000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}})
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/urllib/lib/urllib.js:735:15)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ConnectionTimeoutError'
+requestId: 1
+data: undefined
+path: '/v0/topstories.json'
+status: -2
+headers: {}
+res: { status: -2, statusCode: -2, headers: {}, size: 0, aborted: false, rt: 30031, keepAliveSocket: false, data: undefined, requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ], timing: null, remoteAddress: '35.201.97.85', remotePort: '' }
+pid: 2914
+hostname: MichaelLudeMacBook-Pro.local
+
+2018-01-15 23:41:44,092 ERROR 2935 [-/127.0.0.1/-/30038ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 30000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}})
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/urllib/lib/urllib.js:735:15)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ConnectionTimeoutError'
+requestId: 1
+data: undefined
+path: '/v0/topstories.json'
+status: -2
+headers: {}
+res: { status: -2, statusCode: -2, headers: {}, size: 0, aborted: false, rt: 30024, keepAliveSocket: false, data: undefined, requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ], timing: null, remoteAddress: '35.201.97.85', remotePort: '' }
+pid: 2935
+hostname: MichaelLudeMacBook-Pro.local
+
+2018-01-15 23:57:29,638 ERROR 3265 [-/127.0.0.1/-/5367ms GET /repos] nodejs.ResponseTimeoutError: Response timeout for 5000ms, GET https://api.github.com/users/codefine/repos -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}})
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/urllib/lib/urllib.js:749:15)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ResponseTimeoutError'
+requestId: 1
+data: undefined
+path: '/users/codefine/repos'
+status: -1
+headers: {}
+res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 5363, keepAliveSocket: false, data: undefined, requestUrls: [ 'https://api.github.com/users/codefine/repos' ], timing: null, remoteAddress: '192.30.255.116', remotePort: 443 }
+pid: 3265
+hostname: MichaelLudeMacBook-Pro.local
+
+2018-01-15 23:58:49,845 ERROR 3275 [-/127.0.0.1/-/6381ms GET /repos] nodejs.ResponseTimeoutError: Response timeout for 5000ms, GET https://api.github.com/users/codefine/repos -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}})
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/urllib/lib/urllib.js:749:15)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ResponseTimeoutError'
+requestId: 1
+data: undefined
+path: '/users/codefine/repos'
+status: -1
+headers: {}
+res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 6356, keepAliveSocket: false, data: undefined, requestUrls: [ 'https://api.github.com/users/codefine/repos' ], timing: null, remoteAddress: '192.30.255.116', remotePort: 443 }
+pid: 3275
+hostname: MichaelLudeMacBook-Pro.local
+
+2018-01-15 23:59:09,794 ERROR 3275 [-/127.0.0.1/-/5236ms GET /repos] nodejs.TypeError: reposList.map is not a function
+    at ReposService.list (/Users/michael.lu/git/github/learn-egg/egg-example/app/service/repos.js:9:26)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 3275
+hostname: MichaelLudeMacBook-Pro.local
+
+2018-01-15 23:59:52,959 ERROR 3313 [-/127.0.0.1/-/2532ms GET /repos] nodejs.TypeError: reposList.map is not a function
+    at ReposService.list (/Users/michael.lu/git/github/learn-egg/egg-example/app/service/repos.js:10:26)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 3313
+hostname: MichaelLudeMacBook-Pro.local
+
