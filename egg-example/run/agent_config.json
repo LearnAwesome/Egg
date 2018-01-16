@@ -75,8 +75,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "c:\\Users\\MichaelLu\\git\\github.com\\learn-egg\\egg-example\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "c:\\Users\\MichaelLu\\git\\github.com\\learn-egg\\egg-example\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "multipart": {
@@ -90,13 +90,6 @@
       "fileExtensions": [],
       "whitelist": null
     },
-    "development": {
-      "watchDirs": [],
-      "ignoreDirs": [],
-      "fastReady": false,
-      "reloadOnDebug": true,
-      "overrideDefault": false
-    },
     "logrotator": {
       "filesRotateByHour": null,
       "hourDelimiter": "-",
@@ -108,15 +101,15 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/michael.lu/git/github/learn-egg/egg-example/app/public",
+      "dir": "c:\\Users\\MichaelLu\\git\\github.com\\learn-egg\\egg-example\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "/Users/michael.lu/git/github/learn-egg/egg-example/app/view",
-      "cache": false,
+      "root": "c:\\Users\\MichaelLu\\git\\github.com\\learn-egg\\egg-example\\app\\view",
+      "cache": true,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
       "mapping": {
@@ -129,9 +122,9 @@
       "throwOnUndefined": false,
       "trimBlocks": false,
       "lstripBlocks": false,
-      "cache": false
+      "cache": true
     },
-    "env": "local",
+    "env": "unittest",
     "name": "egg-example",
     "keys": "<String len: 17>",
     "proxy": false,
@@ -145,7 +138,8 @@
       "main": "index.js",
       "scripts": {
         "dev": "egg-bin dev",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "egg-bin test",
+        "cov": "egg-bin cov"
       },
       "keywords": [],
       "author": "",
@@ -155,12 +149,13 @@
         "egg-view-nunjucks": "^2.1.4"
       },
       "devDependencies": {
-        "egg-bin": "^4.3.7"
+        "egg-bin": "^4.3.7",
+        "egg-mock": "^3.14.0"
       }
     },
-    "baseDir": "/Users/michael.lu/git/github/learn-egg/egg-example",
-    "HOME": "/Users/michael.lu",
-    "rundir": "/Users/michael.lu/git/github/learn-egg/egg-example/run",
+    "baseDir": "c:\\Users\\MichaelLu\\git\\github.com\\learn-egg\\egg-example",
+    "HOME": "C:\\Users\\MichaelLu",
+    "rundir": "c:\\Users\\MichaelLu\\git\\github.com\\learn-egg\\egg-example\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -190,21 +185,19 @@
       }
     },
     "logger": {
-      "dir": "/Users/michael.lu/git/github/learn-egg/egg-example/logs/egg-example",
+      "dir": "c:\\Users\\MichaelLu\\git\\github.com\\learn-egg\\egg-example\\logs\\egg-example",
       "encoding": "utf8",
-      "env": "local",
+      "env": "unittest",
       "level": "INFO",
-      "consoleLevel": "INFO",
+      "consoleLevel": "WARN",
       "disableConsoleAfterReady": false,
       "outputJSON": false,
-      "buffer": true,
+      "buffer": false,
       "appLogName": "egg-example-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
-      "coreLogger": {
-        "consoleLevel": "WARN"
-      },
+      "coreLogger": {},
       "allowDebugAtProd": true,
       "type": "agent"
     },
@@ -250,6 +243,14 @@
     "clusterClient": {
       "responseTimeout": 60000
     },
+    "middleware": [
+      "robot"
+    ],
+    "robot": {
+      "ua": [
+        {}
+      ]
+    },
     "repos": {
       "user": "codefine",
       "serverUrl": "https://api.github.com/users"
@@ -261,8 +262,12 @@
       "bodyParser",
       "overrideMethod"
     ],
-    "appMiddlewares": [],
-    "appMiddleware": []
+    "appMiddlewares": [
+      "robot"
+    ],
+    "appMiddleware": [
+      "robot"
+    ]
   },
   "plugins": {
     "session": {
@@ -272,8 +277,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-session",
+      "from": "c:\\Users\\MichaelLu\\git\\github.com\\learn-egg\\egg-example\\node_modules\\egg\\config\\plugin.js",
+      "path": "c:\\Users\\MichaelLu\\git\\github.com\\learn-egg\\egg-example\\node_modules\\egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -285,8 +290,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-security",
+      "from": "c:\\Users\\MichaelLu\\git\\github.com\\learn-egg\\egg-example\\node_modules\\egg\\config\\plugin.js",
+      "path": "c:\\Users\\MichaelLu\\git\\github.com\\learn-egg\\egg-example\\node_modules\\egg-security",
       "version": "2.0.0"
     },
     "jsonp": {
@@ -298,8 +303,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-jsonp",
+      "from": "c:\\Users\\MichaelLu\\git\\github.com\\learn-egg\\egg-example\\node_modules\\egg\\config\\plugin.js",
+      "path": "c:\\Users\\MichaelLu\\git\\github.com\\learn-egg\\egg-example\\node_modules\\egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -311,8 +316,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-onerror",
+      "from": "c:\\Users\\MichaelLu\\git\\github.com\\learn-egg\\egg-example\\node_modules\\egg\\config\\plugin.js",
+      "path": "c:\\Users\\MichaelLu\\git\\github.com\\learn-egg\\egg-example\\node_modules\\egg-onerror",
       "version": "2.0.0"
     },
     "i18n": {
@@ -322,8 +327,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-i18n",
+      "from": "c:\\Users\\MichaelLu\\git\\github.com\\learn-egg\\egg-example\\node_modules\\egg\\config\\plugin.js",
+      "path": "c:\\Users\\MichaelLu\\git\\github.com\\learn-egg\\egg-example\\node_modules\\egg-i18n",
       "version": "2.0.0"
     },
     "watcher": {
@@ -333,8 +338,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-watcher",
+      "from": "c:\\Users\\MichaelLu\\git\\github.com\\learn-egg\\egg-example\\node_modules\\egg\\config\\plugin.js",
+      "path": "c:\\Users\\MichaelLu\\git\\github.com\\learn-egg\\egg-example\\node_modules\\egg-watcher",
       "version": "3.0.0"
     },
     "multipart": {
@@ -344,24 +349,9 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-multipart",
+      "from": "c:\\Users\\MichaelLu\\git\\github.com\\learn-egg\\egg-example\\node_modules\\egg\\config\\plugin.js",
+      "path": "c:\\Users\\MichaelLu\\git\\github.com\\learn-egg\\egg-example\\node_modules\\egg-multipart",
       "version": "2.0.0"
-    },
-    "development": {
-      "enable": true,
-      "package": "egg-development",
-      "name": "development",
-      "dependencies": [
-        "watcher"
-      ],
-      "optionalDependencies": [],
-      "env": [
-        "local"
-      ],
-      "from": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-development",
-      "version": "2.1.0"
     },
     "schedule": {
       "enable": true,
@@ -370,8 +360,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-schedule",
+      "from": "c:\\Users\\MichaelLu\\git\\github.com\\learn-egg\\egg-example\\node_modules\\egg\\config\\plugin.js",
+      "path": "c:\\Users\\MichaelLu\\git\\github.com\\learn-egg\\egg-example\\node_modules\\egg-schedule",
       "version": "3.1.1"
     },
     "logrotator": {
@@ -383,8 +373,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-logrotator",
+      "from": "c:\\Users\\MichaelLu\\git\\github.com\\learn-egg\\egg-example\\node_modules\\egg\\config\\plugin.js",
+      "path": "c:\\Users\\MichaelLu\\git\\github.com\\learn-egg\\egg-example\\node_modules\\egg-logrotator",
       "version": "3.0.1"
     },
     "static": {
@@ -394,8 +384,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-static",
+      "from": "c:\\Users\\MichaelLu\\git\\github.com\\learn-egg\\egg-example\\node_modules\\egg\\config\\plugin.js",
+      "path": "c:\\Users\\MichaelLu\\git\\github.com\\learn-egg\\egg-example\\node_modules\\egg-static",
       "version": "2.1.0"
     },
     "view": {
@@ -405,8 +395,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-view",
+      "from": "c:\\Users\\MichaelLu\\git\\github.com\\learn-egg\\egg-example\\node_modules\\egg\\config\\plugin.js",
+      "path": "c:\\Users\\MichaelLu\\git\\github.com\\learn-egg\\egg-example\\node_modules\\egg-view",
       "version": "2.0.0"
     },
     "nunjucks": {
@@ -419,9 +409,18 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/michael.lu/git/github/learn-egg/egg-example/config/plugin.js",
-      "path": "/Users/michael.lu/git/github/learn-egg/egg-example/node_modules/egg-view-nunjucks",
+      "from": "c:\\Users\\MichaelLu\\git\\github.com\\learn-egg\\egg-example\\config\\plugin.js",
+      "path": "c:\\Users\\MichaelLu\\git\\github.com\\learn-egg\\egg-example\\node_modules\\egg-view-nunjucks",
       "version": "2.1.4"
+    },
+    "egg-mock": {
+      "enable": true,
+      "path": "c:\\Users\\MichaelLu\\git\\github.com\\learn-egg\\egg-example\\node_modules\\egg-mock",
+      "name": "egg-mock",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "version": "3.14.0"
     }
   }
 }
